@@ -54,7 +54,7 @@ function showWeatherReport(weather) {
     } else if (weatherType.textContent == 'Haze') {
         document.body.style.backgroundImage = "url('Cloudy.jpg')";
     } else if (weatherType.textContent == 'Rain') {
-        document.body.style.backgroundImage = "url('Rainy.jpg')";
+        document.body.style.backgroundImage = "url('rainy.jpg')";
     } else if (weatherType.textContent == 'Snow') {
         document.body.style.backgroundImage = "url('snowfall.jpg')";
     } else if (weatherType.textContent == 'Thunderstrorm') {
